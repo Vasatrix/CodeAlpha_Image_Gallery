@@ -1,0 +1,26 @@
+.thumbnail-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .thumbnail {
+    width: 80px;
+    height: 50px;
+    object-fit: cover;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1);
+  }
+  
+  .thumbnail.active {
+    border: 3px solid #4c4cfc;
+    transform: scale(1.15);
+  }
+  

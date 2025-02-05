@@ -1,0 +1,35 @@
+.theme-switcher {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  input[type='checkbox'] {
+    display: none;
+  }
+  
+  .slider {
+    width: 40px;
+    height: 20px;
+    background: #ccc;
+    border-radius: 50px;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  input:checked + .slider {
+    background: #4c4cfc;
+  }
+  
+  p {
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  
